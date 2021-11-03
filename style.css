@@ -1,0 +1,207 @@
+footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 2.5% 0;
+}  
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    padding: 5% 10%;
+    /* flex: 1; */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#one-two-text {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#flex-one {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.flex-four {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    background: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 0;
+    align-items: center;
+}
+
+.flex-four-one {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.four-one-one {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.four-one-one p {
+    margin-bottom: 0;
+}
+
+.four-one-two p {
+    margin-top: 0;
+}
+
+.four-one {
+    flex:3;
+}
+
+.four-two {
+    flex: 1;
+}
+#one-one {
+    padding: 0 50px 0 0;
+    flex: 1;
+}
+
+#one-two {
+    padding: 0px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888888;
+}
+
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#flex-two {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: Merriweather, serif;
+    font-style: italic;
+    padding: 0% 20% 0% 20%
+}
+
+.quote-author {
+    font-size: 30px;
+    padding: 0% 20% 0% 20%;
+    text-align: right;
+    font-weight: 550;
+}
+
+.two {
+    padding: 0px;
+}
+
+div.p0 {
+    padding: 0px;;
+}
+
+.p0 p {
+    padding: 5%;
+    text-align: center;
+}
+
+#blank-box {
+    background-color: #ffffff;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+    padding: 30% 10%;
+    margin: 20%;
+}
+
+.first-2 {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0;
+}
+
+.flex-container-header {
+    background: #1f2937;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background: #1f2937;
+}
+
+.flex-container-header .h-logo {
+    flex: 4;
+    padding: 0 0 0 10%;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.flex-container-header .h-number {
+    flex: 1;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.flex-container-header .h-number-last {
+    flex: 1;
+    padding: 0 10% 0 0;
+    color: #E5E7EB;
+    font-size: 18px
+}
+
+.two h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.flex-container .one {
+    background: #1f2937;
+    border: 0px;
+    /* flex: 1; */
+}
+.flex-container .two {
+    background: #ffffff;
+    border: 0px;
+    /* flex: 1; */
+}
+
+.flex-container .three {
+    background: #e5e7eb;
+    border: 0px;
+    /* flex: 1; */
+}
+
+
+.text-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    padding: 0;
+}
+
+.four {
+    padding: 5% 10%;
+}
